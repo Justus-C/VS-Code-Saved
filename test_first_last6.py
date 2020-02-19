@@ -1,4 +1,5 @@
 #Feb 19, 2020. Writing tests for functions(without writing the functions)
+from first_last6 import first_last_6
 def test_1():
     assert first_last_6([1,2,6]) is True
     assert first_last_6([6,1,2,3]) is True
@@ -8,6 +9,7 @@ def test_1():
     assert first_last_6([0,6,2,5,2,6,9]) is False
     assert first_last_6(6) is True
 
+"""
 def test_2():
     assert make_middle([1,2,3,4]) == [2,3]
     assert make_middle([7,1,2,3,4,9]) == [2,3]
@@ -34,3 +36,4 @@ def test_4():
     assert swap_ends([1]) == [1]
     assert swap_ends([12,9]) == [9,12]
     assert swap_ends([1,11,121,141,5]) == [5,11,121,141,5,1]
+"""
